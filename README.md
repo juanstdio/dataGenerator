@@ -5,16 +5,20 @@ Este script es utlizado para generar de forma aleatoria, mediante una lista de n
 montón de datos para procesar en un base de datos SQL.
 
 ### Instalación
+
 #1 Clonar el repositorio usando git
 ````
 $ git clone github.com/juanstdio/dataGenerator
 ````
-#2 Instalar requisitos
+#2 Instalar requisitos usando pip
 ````
-$ sudo pip install -r requirements.txt
+DEBIAN: $ sudo pip2 install -r requirements.txt
+MAC OS: $ pip2 install -r requirements.txt
 ````
 #3 Ejecutar sin cambiar privilegios
 ````
-python2 inventeRomanv2.py
+$ python2 inventeRomanv2.py
+````
 
+Adio'
 
